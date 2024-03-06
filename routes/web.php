@@ -14,4 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get("/",[\App\Http\Controllers\SimoneController::class,"questions"]);
+Route::get("/questions",[\App\Http\Controllers\SimoneController::class,"questions"]);
 Route::get("/questions/{id}",[\App\Http\Controllers\SimoneController::class,"question"]);

@@ -1,0 +1,84 @@
+{
+    "url": "https://api.envoituresimone.com/api/v1/students/1777428655",
+    "data": {
+        "id": "1777428655",
+        "type": "student",
+        "attributes": {
+            "first_name": "OLVANOT JEAN CLAUDE ",
+            "last_name": "RAKOTONIRINA",
+            "gender": null,
+            "dob": null,
+            "phone": "+33631742028",
+            "email": "olvanotjcs@gmail.com",
+            "provider": "email",
+            "picture_url": null,
+            "picture_file_name": null,
+            "picture_content_type": null,
+            "picture_file_size": null,
+            "picture_updated_at": null,
+            "is_teacher": false,
+            "cdr_status": "lead",
+            "payments_balance": 0,
+            "credits_obtained": 0,
+            "engaged_at": null,
+            "signed_up_from": "spa",
+            "code": null,
+            "credits": 0,
+            "code_exam_credits": 0,
+            "driving_exam_credits": 0,
+            "coupons_name": [],
+            "postal_code": {
+                "data": {
+                    "id": "4206",
+                    "type": "postal_code",
+                    "attributes": {
+                        "id": 4206,
+                        "value": "67000"
+                    }
+                }
+            },
+            "offer": {
+                "data": null
+            },
+            "lessons_passed": {
+                "data": []
+            },
+            "lessons_to_come": {
+                "data": []
+            },
+            "student_info": {
+                "data": {
+                    "id": "2550517",
+                    "type": "student_info",
+                    "attributes": {
+                        "code": null,
+                        "credits": null,
+                        "code_exam_credits": null,
+                        "driving_exam_credits": null,
+                        "initial_wish": null,
+                        "initial_status": null,
+                        "code_passed_at": null,
+                        "date_last_status_changes": "2024-03-06T12:30:35.034+01:00",
+                        "status": "registered",
+                        "sub_status": null,
+                        "expiration_start_date": null,
+                        "neph_number": null
+                    }
+                }
+            },
+            "cgaac_accepted_at": null,
+            "last_cgaac_url_doc": "https://legacy.envoituresimone.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBd1E1Q0E9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--d09b529a4f4a7254e2c6e9cfc9b25d91d84226cb/VF_-_Contrat_CGV%2005.03.2024.pdf?disposition=attachment",
+            "learning_contract_accepted_at": null,
+            "show_learning_contract": false,
+            "email_confirmed_at": "2024-03-06T12:30:35.022+01:00",
+            "date_limit_to_confirm_email": null,
+            "driving_department": null,
+            "pricing_zone": null,
+            "exam_reservation": null,
+            "client_type": "registered",
+            "eval_post_achat": null,
+            "eligible_for_rdvp": false,
+            "near_bva_location": null
+        }
+    }
+}

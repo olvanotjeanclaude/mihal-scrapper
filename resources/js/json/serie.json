@@ -1,0 +1,83 @@
+
+
+{
+    "url": "https://api.envoituresimone.com/api/v2/account/1777428655/series/5942473991",
+    "data": {
+        "id": "5942473991",
+        "type": "serie",
+        "attributes": {
+            "name": "Série Découvert 1",
+            "scope": "free",
+            "updated_at": "2021-06-21T10:47:39.972+02:00",
+            "position": 0,
+            "type": "Discovery",
+            "questions_count": 10,
+            "last_session": {
+                "training": {
+                    "data": {
+                        "id": "0722762142",
+                        "type": "session",
+                        "attributes": {
+                            "last_answered_at": "2024-03-06T13:11:37.953+01:00",
+                            "state": "pending",
+                            "type": "Cdr::TrainingSession",
+                            "answers_count": 4,
+                            "stats": {
+                                "false": 1,
+                                "right": 3
+                            },
+                            "serie_id": "5942473991"
+                        }
+                    }
+                }
+            },
+            "last_answer_at": "2024-03-06T13:11:37.728+01:00"
+        },
+        "relationships": {
+            "questions": {
+                "data": [
+                    {
+                        "id": "3603624151",
+                        "type": "question"
+                    },
+                    {
+                        "id": "6630548112",
+                        "type": "question"
+                    },
+                    {
+                        "id": "2448563910",
+                        "type": "question"
+                    },
+                    {
+                        "id": "3046515612",
+                        "type": "question"
+                    },
+                    {
+                        "id": "4964232511",
+                        "type": "question"
+                    },
+                    {
+                        "id": "0129632654",
+                        "type": "question"
+                    },
+                    {
+                        "id": "5426705312",
+                        "type": "question"
+                    },
+                    {
+                        "id": "3246275112",
+                        "type": "question"
+                    },
+                    {
+                        "id": "6632547102",
+                        "type": "question"
+                    },
+                    {
+                        "id": "5122832654",
+                        "type": "question"
+                    }
+                ]
+            }
+        }
+    }
+}

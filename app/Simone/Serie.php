@@ -1,0 +1,611 @@
+<?php
+
+namespace App\Simone;
+
+class Serie
+{
+    const JSON = '
+    [
+        {
+            "id": "4531872262",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-1",
+                "scope": "free",
+                "updated_at": "2021-08-09T15:03:07.920+02:00",
+                "position": 0,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "5942473991",
+            "type": "serie",
+            "attributes": {
+                "name": "Série Découvert 1",
+                "scope": "free",
+                "updated_at": "2021-06-21T10:47:39.972+02:00",
+                "position": 0,
+                "type": "Discovery",
+                "questions_count": 10
+            }
+        },
+        {
+            "id": "5342856271",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-2",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:15:54.822+02:00",
+                "position": 1,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "4194973942",
+            "type": "serie",
+            "attributes": {
+                "name": "Série Découvert 2",
+                "scope": "free",
+                "updated_at": "2021-06-21T10:47:40.776+02:00",
+                "position": 1,
+                "type": "Discovery",
+                "questions_count": 10
+            }
+        },
+        {
+            "id": "9439971423",
+            "type": "serie",
+            "attributes": {
+                "name": "Série Découvert 3",
+                "scope": "free",
+                "updated_at": "2021-06-21T10:47:41.344+02:00",
+                "position": 2,
+                "type": "Discovery",
+                "questions_count": 10
+            }
+        },
+        {
+            "id": "2182454763",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-3",
+                "scope": "free",
+                "updated_at": "2018-09-10T16:20:34.639+02:00",
+                "position": 2,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "9394197942",
+            "type": "serie",
+            "attributes": {
+                "name": "Série Découvert 4",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:23.408+02:00",
+                "position": 3,
+                "type": "Discovery",
+                "questions_count": 10
+            }
+        },
+        {
+            "id": "3752683412",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-4",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:15:56.836+02:00",
+                "position": 3,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "3985412672",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-17",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:04.577+02:00",
+                "position": 4,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "2351648872",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-24",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:10.698+02:00",
+                "position": 5,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "1845277632",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-28",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:20.056+02:00",
+                "position": 6,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "8613627425",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-5",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:15:57.929+02:00",
+                "position": 7,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "1754683412",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-6",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:15:58.628+02:00",
+                "position": 8,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "4182452763",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-7",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:15:59.509+02:00",
+                "position": 9,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "4531870264",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-8",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:00.097+02:00",
+                "position": 10,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "1845257634",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-9",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:15:59.958+02:00",
+                "position": 11,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "8613447425",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-15",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:03.878+02:00",
+                "position": 12,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "5344836271",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-10",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:01.101+02:00",
+                "position": 13,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "7852314649",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-11",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:02.159+02:00",
+                "position": 14,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "6544827318",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-12",
+                "scope": "free",
+                "updated_at": "2021-08-16T14:58:06.750+02:00",
+                "position": 15,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "3785412674",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-13",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:02.987+02:00",
+                "position": 16,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "2351648674",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-14",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:03.020+02:00",
+                "position": 17,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "5182451763",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-16",
+                "scope": "free",
+                "updated_at": "2018-08-15T13:35:08.428+02:00",
+                "position": 18,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "5345826271",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-18",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:07.410+02:00",
+                "position": 19,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "0755683412",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-19",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:08.000+02:00",
+                "position": 20,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "2351648575",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-20",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:08.028+02:00",
+                "position": 21,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "1845247635",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-21",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:08.824+02:00",
+                "position": 22,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "8613357425",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-22",
+                "scope": "free",
+                "updated_at": "2020-06-23T11:52:17.519+02:00",
+                "position": 23,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "8215675439",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-23",
+                "scope": "free",
+                "updated_at": "2022-12-20T15:10:58.330+01:00",
+                "position": 24,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "7852315648",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-25",
+                "scope": "free",
+                "updated_at": "2022-12-05T11:03:28.938+01:00",
+                "position": 25,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "6545727318",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-34",
+                "scope": "free",
+                "updated_at": "2021-03-31T10:49:22.135+02:00",
+                "position": 26,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "3685412675",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-26",
+                "scope": "free",
+                "updated_at": "2023-07-26T15:01:54.288+02:00",
+                "position": 27,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "1845217638",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-35",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:20.674+02:00",
+                "position": 28,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "2351648278",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-27",
+                "scope": "free",
+                "updated_at": "2018-08-15T15:01:11.183+02:00",
+                "position": 29,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "8613087425",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-29",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:20.172+02:00",
+                "position": 30,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "7852318645",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-30",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:19.887+02:00",
+                "position": 31,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "6548427318",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-31",
+                "scope": "free",
+                "updated_at": "2023-10-05T09:50:02.682+02:00",
+                "position": 32,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "3385412678",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-32",
+                "scope": "free",
+                "updated_at": "2020-06-23T11:52:17.519+02:00",
+                "position": 33,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "9142563887",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-33",
+                "scope": "free",
+                "updated_at": "2018-09-10T16:21:33.851+02:00",
+                "position": 34,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "4715863882",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-36",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:20.859+02:00",
+                "position": 35,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "1478867523",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-37",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:20.870+02:00",
+                "position": 36,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "8218675436",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-38",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:21.088+02:00",
+                "position": 37,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "2351648179",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-39",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:21.088+02:00",
+                "position": 38,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "3285412679",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-40",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:21.088+02:00",
+                "position": 39,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "3642701820",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-41",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:25.799+02:00",
+                "position": 40,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "4031879206",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-42",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:20.711+02:00",
+                "position": 41,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "1208678340",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-43",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:23.408+02:00",
+                "position": 42,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "8741020673",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-44",
+                "scope": "free",
+                "updated_at": "2018-08-15T13:35:08.428+02:00",
+                "position": 43,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "7016320468",
+            "type": "serie",
+            "attributes": {
+                "name": "serie-45",
+                "scope": "free",
+                "updated_at": "2023-05-02T18:16:01.101+02:00",
+                "position": 44,
+                "type": "StaticSerie",
+                "questions_count": 40
+            }
+        },
+        {
+            "id": "1330247030",
+            "type": "serie",
+            "attributes": {
+                "name": "error-serie-1777428655-7u4JwUUS5nAqpwie",
+                "scope": "registered",
+                "updated_at": "2024-03-06T13:09:01.320+01:00",
+                "position": 100,
+                "type": "Error",
+                "questions_count": 1
+            }
+        }
+    ]
+    ';
+}

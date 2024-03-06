@@ -1,0 +1,532 @@
+{
+    "url": "https://api.envoituresimone.com/api/v1/questions/3046515612",
+    "data": {
+        "id": "3046515612",
+        "type": "question",
+        "attributes": {
+            "text_1": "\\n",
+            "text_2": null,
+            "answer_a": "Je ralentis et je me prépare à m'arrêter",
+            "answer_b": "Je passe sans ralentir",
+            "answer_c": "Je klaxonne et je passe",
+            "answer_d": null,
+            "correct_answer": [
+                "A"
+            ],
+            "state": "published",
+            "updated_at": "2018-08-15T14:37:55.920+02:00",
+            "correction": "Quelles sont les intentions du piéton arrêté sur la chaussée ?\\nDifficile à dire, il semble absorbé par son téléphone... Mais s'il est là, c'est sans doute qu'il s'apprêtait à traverser avant que son attention soit détournée.\\nPas question de klaxonner ici, il n'y a pas de réel danger, juste une interrogation. Mais pas question non plus de passer comme si de rien n'était !\\nJe dois donc ralentir et me préparer à m'arrêter. Ce piéton peut se remettre à marcher sans quitter son téléphone des yeux.\\nRéponse : A.",
+            "question_img_1": {
+                "data": {
+                    "id": "2973",
+                    "type": "asset",
+                    "attributes": {
+                        "type": "Cdr::Image",
+                        "geometries": {
+                            "large": {
+                                "width": 960.0,
+                                "height": 408.0,
+                                "modifier": null,
+                                "orientation": 1
+                            },
+                            "small": {
+                                "width": 480.0,
+                                "height": 204.0,
+                                "modifier": null,
+                                "orientation": 1
+                            },
+                            "medium": {
+                                "width": 767.0,
+                                "height": 326.0,
+                                "modifier": null,
+                                "orientation": 1
+                            },
+                            "original": {
+                                "width": 3840.0,
+                                "height": 1632.0,
+                                "modifier": null,
+                                "orientation": 1
+                            }
+                        },
+                        "updated_at": "2023-05-31T13:47:52.433+02:00",
+                        "alt_attribute": null,
+                        "attachment_file_name": "00941qA.jpg",
+                        "attachment_content_type": "image/jpeg",
+                        "attachment_file_size": 87232,
+                        "attachment_meta": {
+                            "identified": true,
+                            "width": 767,
+                            "height": 326,
+                            "analyzed": true
+                        }
+                    },
+                    "links": {
+                        "url": "https://legacy.envoituresimone.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBejU5QlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--50ba86d953d4cb0504b327f9f30b086092451469/00941qA.jpg?disposition=attachment"
+                    }
+                }
+            },
+            "question_img_2": null,
+            "answer_img_1": {
+                "data": {
+                    "id": "2973",
+                    "type": "asset",
+                    "attributes": {
+                        "type": "Cdr::Image",
+                        "geometries": {
+                            "large": {
+                                "width": 960.0,
+                                "height": 408.0,
+                                "modifier": null,
+                                "orientation": 1
+                            },
+                            "small": {
+                                "width": 480.0,
+                                "height": 204.0,
+                                "modifier": null,
+                                "orientation": 1
+                            },
+                            "medium": {
+                                "width": 767.0,
+                                "height": 326.0,
+                                "modifier": null,
+                                "orientation": 1
+                            },
+                            "original": {
+                                "width": 3840.0,
+                                "height": 1632.0,
+                                "modifier": null,
+                                "orientation": 1
+                            }
+                        },
+                        "updated_at": "2023-05-31T13:47:52.433+02:00",
+                        "alt_attribute": null,
+                        "attachment_file_name": "00941qA.jpg",
+                        "attachment_content_type": "image/jpeg",
+                        "attachment_file_size": 87232,
+                        "attachment_meta": {
+                            "identified": true,
+                            "width": 767,
+                            "height": 326,
+                            "analyzed": true
+                        }
+                    },
+                    "links": {
+                        "url": "https://legacy.envoituresimone.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBejU5QlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--50ba86d953d4cb0504b327f9f30b086092451469/00941qA.jpg?disposition=attachment"
+                    }
+                }
+            },
+            "answer_img_2": null,
+            "question_video": null,
+            "answer_video": null,
+            "question_audio": {
+                "data": {
+                    "id": "2972",
+                    "type": "asset",
+                    "attributes": {
+                        "type": "Cdr::Audio",
+                        "geometries": null,
+                        "updated_at": "2023-05-30T11:23:24.941+02:00",
+                        "alt_attribute": null,
+                        "attachment_file_name": "00941q.mp3",
+                        "attachment_content_type": "audio/mpeg",
+                        "attachment_file_size": 47084,
+                        "attachment_meta": {
+                            "identified": true,
+                            "analyzed": true
+                        }
+                    },
+                    "links": {
+                        "url": "https://legacy.envoituresimone.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBejF2QlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--6058b08f34fb7e3df2635e1e4ecb19f5a597dc85/00941q.mp3?disposition=attachment"
+                    }
+                }
+            },
+            "answer_audio": {
+                "data": {
+                    "id": "2974",
+                    "type": "asset",
+                    "attributes": {
+                        "type": "Cdr::Audio",
+                        "geometries": null,
+                        "updated_at": "2023-05-30T11:27:35.982+02:00",
+                        "alt_attribute": null,
+                        "attachment_file_name": "00941r.mp3",
+                        "attachment_content_type": "audio/mpeg",
+                        "attachment_file_size": 117548,
+                        "attachment_meta": {
+                            "identified": true,
+                            "analyzed": true
+                        }
+                    },
+                    "links": {
+                        "url": "https://legacy.envoituresimone.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNGgxQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b50e771c6f79ae785cd3d74a6e0a082ea082bd6c/00941r.mp3?disposition=attachment"
+                    }
+                }
+            },
+            "lessons": {
+                "data": [
+                    {
+                        "id": "8671059028",
+                        "type": "lesson",
+                        "attributes": {
+                            "name": "Code de la route piétons",
+                            "slug": "les-pietons-g97fheb",
+                            "theme": "AUTRES USAGERS",
+                            "subtheme": "Les usagers fragiles",
+                            "anuman_id": 6,
+                            "position": 53,
+                            "paragraphs": {
+                                "data": [
+                                    {
+                                        "id": "4834665721",
+                                        "type": "paragraph",
+                                        "attributes": {
+                                            "title": "Les usagers considérés comme piétons",
+                                            "text": "Les personnes à pied ne sont pas les seuls usagers considérés comme des piétons. Entrent également dans cette catégorie les personnes circulant en fauteuil roulant, dans une poussette, ou circulant sur un véhicule sans moteur et de petite taille (rollers, trottinette sans moteur, skate...), ainsi que les très jeunes cyclistes (moins de 8 ans) ou encore un usager de deux-roues qui pousse son véhicule à la main.\\n\\nCes usagers doivent circuler sur les trottoirs ou au bord de la route si l'accotement n'est pas praticable, respecter les feux tricolores réservés aux piétons et emprunter les passages protégés pour traverser.",
+                                            "photo": {
+                                                "data": {
+                                                    "id": "5144",
+                                                    "type": "asset",
+                                                    "attributes": {
+                                                        "type": "Cdr::Image",
+                                                        "geometries": {
+                                                            "large": {
+                                                                "width": 960.0,
+                                                                "height": 408.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "small": {
+                                                                "width": 480.0,
+                                                                "height": 204.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "medium": {
+                                                                "width": 767.0,
+                                                                "height": 326.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "original": {
+                                                                "width": 3840.0,
+                                                                "height": 1632.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            }
+                                                        },
+                                                        "updated_at": "2023-05-31T13:50:42.890+02:00",
+                                                        "alt_attribute": null,
+                                                        "attachment_file_name": "0006cA.jpg",
+                                                        "attachment_content_type": "image/jpeg",
+                                                        "attachment_file_size": 47636,
+                                                        "attachment_meta": {
+                                                            "identified": true,
+                                                            "width": 767,
+                                                            "height": 326,
+                                                            "analyzed": true
+                                                        }
+                                                    },
+                                                    "links": {
+                                                        "url": "https://legacy.envoituresimone.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNUdDQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--a962435ed8c7791aea54ea365ea4fda0fda782c4/0006cA.jpg?disposition=attachment"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "4653282716",
+                                        "type": "paragraph",
+                                        "attributes": {
+                                            "title": "L'accidentologie des piétons",
+                                            "text": "Chaque année, on compte 500 à 600 piétons tués. Ce nombre est en augmentation. Le plus souvent, c'est lors d'une collision avec une voiture.\\n\\nLes personnes âgées sont particulièrement exposées, notamment en ville.\\n\\nLes piétons ne sont pas toujours bien visibles, surtout la nuit et par mauvais temps. Près de la moitié des accidents mortels ont lieu la nuit, les mois d'hiver : les mauvaises conditions atmosphériques sont plus fréquentes et la nuit commence plus tôt et finit plus tard, alors que les piétons sont nombreux à se déplacer.",
+                                            "photo": {
+                                                "data": {
+                                                    "id": "5145",
+                                                    "type": "asset",
+                                                    "attributes": {
+                                                        "type": "Cdr::Image",
+                                                        "geometries": {
+                                                            "large": {
+                                                                "width": 960.0,
+                                                                "height": 408.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "small": {
+                                                                "width": 480.0,
+                                                                "height": 204.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "medium": {
+                                                                "width": 767.0,
+                                                                "height": 326.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "original": {
+                                                                "width": 3840.0,
+                                                                "height": 1632.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            }
+                                                        },
+                                                        "updated_at": "2023-05-31T13:50:32.320+02:00",
+                                                        "alt_attribute": null,
+                                                        "attachment_file_name": "0006cB.jpg",
+                                                        "attachment_content_type": "image/jpeg",
+                                                        "attachment_file_size": 42763,
+                                                        "attachment_meta": {
+                                                            "identified": true,
+                                                            "width": 767,
+                                                            "height": 326,
+                                                            "analyzed": true
+                                                        }
+                                                    },
+                                                    "links": {
+                                                        "url": "https://legacy.envoituresimone.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMENDQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7d9ce21eb81bf0c8e4b311f5e07c7209e51b6eab/0006cB.jpg?disposition=attachment"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "6423518272",
+                                        "type": "paragraph",
+                                        "attributes": {
+                                            "title": "Des usagers fragiles",
+                                            "text": "Les piétons n'ont pas de carrosserie, donc aucune protection en cas de collision.\\n\\nEn cas de choc avec une voiture :\\nA 30 km/h, les chances de survie d'un piéton sont de 90%.\\nA 50 km/h, les chances de survie d'un piéton sont de 20%\\nA 70 km/h, les chances de survie d'un piéton sont proches de 0.\\n\\nA 30 km/h au lieu de 50, la violence d'un choc est réduite de 60%, ce qui augmente de façon significative ses chances de survie.",
+                                            "photo": {
+                                                "data": {
+                                                    "id": "5146",
+                                                    "type": "asset",
+                                                    "attributes": {
+                                                        "type": "Cdr::Image",
+                                                        "geometries": {
+                                                            "large": {
+                                                                "width": 960.0,
+                                                                "height": 408.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "small": {
+                                                                "width": 480.0,
+                                                                "height": 204.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "medium": {
+                                                                "width": 767.0,
+                                                                "height": 326.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "original": {
+                                                                "width": 3840.0,
+                                                                "height": 1632.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            }
+                                                        },
+                                                        "updated_at": "2023-05-31T13:50:32.430+02:00",
+                                                        "alt_attribute": null,
+                                                        "attachment_file_name": "0006cC.jpg",
+                                                        "attachment_content_type": "image/jpeg",
+                                                        "attachment_file_size": 86396,
+                                                        "attachment_meta": {
+                                                            "identified": true,
+                                                            "width": 767,
+                                                            "height": 326,
+                                                            "analyzed": true
+                                                        }
+                                                    },
+                                                    "links": {
+                                                        "url": "https://legacy.envoituresimone.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMEdDQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--87549b2d1190a6814c2246c5499982f5597677ba/0006cC.jpg?disposition=attachment"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "2258136473",
+                                        "type": "paragraph",
+                                        "attributes": {
+                                            "title": "Les règles à leur égard",
+                                            "text": "Je dois détecter les piétons le plus tôt possible et ralentir à leur approche.\\n\\nJe dois considérer leur zone d'incertitude : un piéton est particulièrement vif ; il peut brusquement changer de direction, faire demi-tour, se mettre à courir ou s'arrêter sur place.\\n\\nA hauteur d'un passage pour piétons où la visibilité n'est pas bonne, je ralentis et je m'écarte pour limiter les risques liés au surgissement d'un piéton (qui ne m'aurait pas vu arriver non plus). Attention également à l'avant d'un bus arrêté ou à proximité d'un arrêt de tramways : un piéton, masqué, peut surgir à tout moment.\\n\\nLorsque je croise ou que je dépasse un piéton, je dois laisser un intervalle latéral d'au moins 1 mètre en agglomération, et d'au moins 1,50 mètre hors agglomération. Le but est de ne pas lui faire peur et d'avoir le temps de réagir s'il fait un écart. Si je ne peux pas laisser cet intervalle, je ralentis jusqu'à adopter une allure très réduite. A peine plus rapide que la sienne.\\n\\nLes piétons sont tenus d'emprunter les passages protégés pour traverser s'il en existe un à moins de 50 mètres. Mais dans les faits, je les laisse traverser chaque fois que je le peux afin de ne pas les mettre en danger.  Ce n'est pas parce qu'un piéton traverse à un endroit dangereux ou interdit que je m'autorise à le mettre en danger. Même si son feu est rouge.\\n\\nJe peux faire signe à un piéton de s'engager sur la route, mais je dois d'abord m'assurer que cette invitation ne surprendra pas un autre usager qui ne l'aurait pas vu ! J'évite de faire signe à un enfant de traverser si je ne suis pas sûr de la situation : celui-ci pourrait le faire précipitamment, sans considérer tout autre danger.",
+                                            "photo": {
+                                                "data": {
+                                                    "id": "5147",
+                                                    "type": "asset",
+                                                    "attributes": {
+                                                        "type": "Cdr::Image",
+                                                        "geometries": {
+                                                            "large": {
+                                                                "width": 960.0,
+                                                                "height": 408.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "small": {
+                                                                "width": 480.0,
+                                                                "height": 204.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "medium": {
+                                                                "width": 767.0,
+                                                                "height": 326.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "original": {
+                                                                "width": 3840.0,
+                                                                "height": 1632.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            }
+                                                        },
+                                                        "updated_at": "2023-05-31T13:50:43.009+02:00",
+                                                        "alt_attribute": null,
+                                                        "attachment_file_name": "0006cD.jpg",
+                                                        "attachment_content_type": "image/jpeg",
+                                                        "attachment_file_size": 100608,
+                                                        "attachment_meta": {
+                                                            "identified": true,
+                                                            "width": 767,
+                                                            "height": 326,
+                                                            "analyzed": true
+                                                        }
+                                                    },
+                                                    "links": {
+                                                        "url": "https://legacy.envoituresimone.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBNUtDQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--002440a5ee1240e8f25ec04214c4c50de29b73cb/0006cD.jpg?disposition=attachment"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "6150487322",
+                                        "type": "paragraph",
+                                        "attributes": {
+                                            "title": "Les enfants piétons",
+                                            "text": "Les enfants piétons sont particulièrement exposés :\\n- ils n'ont que de vagues connaissances du code de la route,\\n- leur petite taille les empêche de voir au-dessus des voitures stationnées,\\n- leur champ visuel sur les côtés est restreint (il s'élargit avec l'âge),\\n- ils ne savent pas estimer les distances et les vitesses,\\n- ils n'ont pas conscience des contraintes liées à la conduite d'une voiture (distances de freinage, temps de réaction...)\\n- ils pensent que s'ils voient un véhicule, le conducteur de celui-ci les voit aussi,\\n- ils sont vifs et imprévisibles.",
+                                            "photo": {
+                                                "data": {
+                                                    "id": "5148",
+                                                    "type": "asset",
+                                                    "attributes": {
+                                                        "type": "Cdr::Image",
+                                                        "geometries": {
+                                                            "large": {
+                                                                "width": 960.0,
+                                                                "height": 408.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "small": {
+                                                                "width": 480.0,
+                                                                "height": 204.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "medium": {
+                                                                "width": 767.0,
+                                                                "height": 326.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "original": {
+                                                                "width": 3840.0,
+                                                                "height": 1632.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            }
+                                                        },
+                                                        "updated_at": "2023-05-31T13:50:14.701+02:00",
+                                                        "alt_attribute": null,
+                                                        "attachment_file_name": "0006cE.jpg",
+                                                        "attachment_content_type": "image/jpeg",
+                                                        "attachment_file_size": 33136,
+                                                        "attachment_meta": {
+                                                            "identified": true,
+                                                            "width": 767,
+                                                            "height": 326,
+                                                            "analyzed": true
+                                                        }
+                                                    },
+                                                    "links": {
+                                                        "url": "https://legacy.envoituresimone.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOEdCQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--c7d134b4c0e8b111951fc34eedad578fc6b33d9b/0006cE.jpg?disposition=attachment"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "id": "2732685114",
+                                        "type": "paragraph",
+                                        "attributes": {
+                                            "title": "Les personnes âgées",
+                                            "text": "1/2 des tués a plus de 65 ans. Les personnes âgées voient et entendent moins bien. Elles sont moins mobiles et peuvent difficilement courir si la situation devient dangereuse. Certaines d'entre elles n'ont plus toute leur tête ou n'aiment pas attendre. Je dois donc m'attendre à certaines prises de risques de leur part.\\n\\nLes personnes âgées ont aussi une santé plus fragile ; elles ont plus de risques de décéder ou de garder des séquelles lourdes en cas de collision avec une voiture.",
+                                            "photo": {
+                                                "data": {
+                                                    "id": "5149",
+                                                    "type": "asset",
+                                                    "attributes": {
+                                                        "type": "Cdr::Image",
+                                                        "geometries": {
+                                                            "large": {
+                                                                "width": 960.0,
+                                                                "height": 408.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "small": {
+                                                                "width": 480.0,
+                                                                "height": 204.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "medium": {
+                                                                "width": 767.0,
+                                                                "height": 326.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            },
+                                                            "original": {
+                                                                "width": 3840.0,
+                                                                "height": 1632.0,
+                                                                "modifier": null,
+                                                                "orientation": 1
+                                                            }
+                                                        },
+                                                        "updated_at": "2023-05-31T13:50:04.830+02:00",
+                                                        "alt_attribute": null,
+                                                        "attachment_file_name": "0006cF.jpg",
+                                                        "attachment_content_type": "image/jpeg",
+                                                        "attachment_file_size": 43341,
+                                                        "attachment_meta": {
+                                                            "identified": true,
+                                                            "width": 767,
+                                                            "height": 326,
+                                                            "analyzed": true
+                                                        }
+                                                    },
+                                                    "links": {
+                                                        "url": "https://legacy.envoituresimone.com/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBM2lCQlE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7ebd0d8455b4619dd886edc51ebbf30c81efb1d6/0006cF.jpg?disposition=attachment"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "themes": [
+                "Usagers"
+            ]
+        }
+    }
+}
